@@ -5,7 +5,7 @@ import MagicDropzone from "react-magic-dropzone";
 import "./styles.css";
 const tf = require('@tensorflow/tfjs');
 
-const weights = 'web_model/model.json';
+const weights = 'tfjs-yolov5/web_model/model.json';
 
 
 const names = ['text', 'text_1']
